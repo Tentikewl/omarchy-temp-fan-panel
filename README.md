@@ -5,13 +5,15 @@ temperatures with a history chart, and lets you switch between four fan
 curves (**Silent / Quiet / Balanced / Performance**) with one click —
 no password prompt, no terminal.
 
+<p align="center"><img src="docs/hero.gif" alt="Panel showing live temps and switching fan profiles" width="280"></p>
+
 Themes it, not your dotfiles — every color comes from Omarchy's own theme
 tokens, so it just matches whatever you're running:
 
 | | | |
 |---|---|---|
-| ![Hackerman](docs/screenshots/hackerman.png) | ![Tokyo Night](docs/screenshots/tokyo-night.png) | ![Catppuccin](docs/screenshots/catppuccin.png) |
-| Hackerman | Tokyo Night | Catppuccin |
+| ![Hackerman](docs/screenshots/hackerman.png) | ![Rose Pine](docs/screenshots/rose-pine.png) | ![Everforest](docs/screenshots/everforest.png) |
+| Hackerman | Rose Pine | Everforest |
 | ![Catppuccin Latte](docs/screenshots/catppuccin-latte.png) | ![Gruvbox](docs/screenshots/gruvbox.png) | ![Nord](docs/screenshots/nord.png) |
 | Catppuccin Latte | Gruvbox | Nord |
 
