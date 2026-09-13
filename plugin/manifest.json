@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "community.temps-fan-panel",
+  "name": "CPU/GPU Temps + Fan Profiles",
+  "version": "1.0.0",
+  "author": "omarchy-temp-fan-panel contributors",
+  "description": "Live CPU/GPU temperature readout with a history chart and Silent/Quiet/Performance fan-curve switching",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Temps.qml"
+  },
+  "barWidget": {
+    "displayName": "Temps",
+    "description": "Live CPU and GPU temperature readout, click for history + fan profiles",
+    "category": "System",
+    "allowMultiple": false
+  }
+}
