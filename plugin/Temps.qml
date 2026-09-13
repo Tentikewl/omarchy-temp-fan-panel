@@ -49,6 +49,13 @@ BarWidget {
   function close() { root.panelOpen = false }
   function togglePanel() { root.panelOpen = !root.panelOpen }
 
+  IpcHandler {
+    target: "community.temps-fan-panel"
+    function open(): void { root.panelOpen = true }
+    function close(): void { root.close() }
+    function toggle(): void { root.togglePanel() }
+  }
+
   function refresh() {
     if (!proc.running) proc.running = true
   }

@@ -5,6 +5,16 @@ temperatures with a history chart, and lets you switch between four fan
 curves (**Silent / Quiet / Balanced / Performance**) with one click —
 no password prompt, no terminal.
 
+Themes it, not your dotfiles — every color comes from Omarchy's own theme
+tokens, so it just matches whatever you're running:
+
+| | | |
+|---|---|---|
+| ![Hackerman](docs/screenshots/hackerman.png) | ![Tokyo Night](docs/screenshots/tokyo-night.png) | ![Catppuccin](docs/screenshots/catppuccin.png) |
+| Hackerman | Tokyo Night | Catppuccin |
+| ![Catppuccin Latte](docs/screenshots/catppuccin-latte.png) | ![Gruvbox](docs/screenshots/gruvbox.png) | ![Nord](docs/screenshots/nord.png) |
+| Catppuccin Latte | Gruvbox | Nord |
+
 ## Why this exists
 
 Motherboard fan curves on Linux often default to something louder than
@@ -61,7 +71,7 @@ case fan, keep its minimum duty floor high (never let it approach 0%).
 ## Install
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/Tentikewl/omarchy-temp-fan-panel.git
 cd omarchy-temp-fan-panel
 sudo ./install.sh
 ```
