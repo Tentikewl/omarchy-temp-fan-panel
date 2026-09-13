@@ -7,6 +7,11 @@ no password prompt, no terminal.
 
 <p align="center"><img src="docs/hero.gif" alt="Panel showing live temps and switching fan profiles" width="280"></p>
 
+Lives as a normal pill in the bar; click it and the panel drops down right
+below, same as any other Omarchy bar widget:
+
+<p align="center"><img src="docs/bar-context.png" alt="The bar pill and its open panel, in context" width="640"></p>
+
 Themes it, not your dotfiles — every color comes from Omarchy's own theme
 tokens, so it just matches whatever you're running:
 
